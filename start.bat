@@ -5,7 +5,7 @@ start /b /W steam://rungameid/892970
 
 :wait
 timeout 5 >nul
-tasklist |findstr /i /L /e:"valheim.exe" >nul
+tasklist | findstr /i /L "valheim.exe" > nul
 if not errorlevel 1 goto wait
 :QUIT
 
