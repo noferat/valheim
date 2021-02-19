@@ -1,6 +1,6 @@
 rem Insert your specifics here
-set World_name = Jebsworld
-set save_folder = %USERPROFILE%\AppData\LocalLow\IronGate\Valheim\worlds
+set world_name=Jebsworld
+set save_folder=%USERPROFILE%\AppData\LocalLow\IronGate\Valheim\worlds
 
 rem Get the newest world from git
 git pull
