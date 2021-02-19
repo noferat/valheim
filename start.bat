@@ -26,5 +26,8 @@ if not errorlevel 1 goto wait
 copy %save_folder%\%world_name%.db %World_name%.db 
 copy %save_folder%\%world_name%.fwl %World_name%.fwl 
 
+git add %world_name%.db
+git add %world_name%.fwl
+
 git commit -am "%DATE:/=-%@%TIME::=-%"
 git push
